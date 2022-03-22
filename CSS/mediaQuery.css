@@ -1,0 +1,57 @@
+@media screen and (max-width: 1000px) {
+  .intro-home-page {
+    display: none;
+  }
+  .img-home-page {
+    display: none;
+  }
+
+  .home-page-mobile {
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../asstes/bg-body-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  span {
+    font-family: "Poppins", sans-serif;
+    color: rgb(144, 147, 150);
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .home-page {
+    display: none;
+  }
+  .home-page-mobile-text {
+    height: 25rem;
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .about-img-container-mobile {
+    display: block;
+  }
+  .about-img-container {
+    display: none;
+  }
+  .about-me-heading-mobile {
+    display: block;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .about-me-heading {
+    display: none;
+  }
+  .contactme {
+    display: none;
+  }
+  .contactme-mobile-view {
+    display: block;
+  }
+}

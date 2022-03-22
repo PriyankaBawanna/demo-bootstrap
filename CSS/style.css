@@ -1,0 +1,190 @@
+body {
+  background-color: black;
+}
+
+.header-menu {
+  background-color: black;
+}
+.topmenu-item {
+  font-family: "Poppins", sans-serif;
+  border-bottom: 3px solid black;
+}
+.topmenu-item:hover {
+  border-bottom: 3px solid white;
+}
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(144, 147, 150);
+  font-size: 2.5rem;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(105, 102, 102);
+}
+.header-container {
+  height: 4rem;
+  background-color: black;
+  width: 100%;
+}
+.heading-Portfolio {
+  display: none;
+}
+@media screen and (max-width: 995px) {
+  .contact-btn {
+    display: none;
+  }
+  .heading-Portfolio {
+    display: block;
+  }
+}
+.home-page-mobile {
+  display: none;
+}
+@media screen and (max-width: 896px) {
+  .intro-home-page {
+    display: none;
+  }
+  .img-home-page {
+    display: none;
+  }
+  .home {
+    display: none;
+  }
+}
+.mobile-view-home {
+  padding: 5rem;
+}
+
+.about-me-heading {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.about-me-heading-mobile {
+  display: none;
+}
+.about-me-text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(173, 173, 173);
+}
+.about-text {
+  color: white;
+  border-bottom: 1px solid white;
+  font-family: "Poppins", sans-serif;
+}
+.about-text:hover {
+  border-bottom: 1px solid rgb(194, 44, 69);
+  color: rgb(194, 44, 69);
+}
+.list-about-me {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: rgb(173, 173, 173);
+}
+
+.box-card {
+  background-image: url("../Asstes/card-one.jpg");
+  height: 30rem;
+  border: solid;
+}
+.card:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 0, 77, 1),
+    rgba(255, 0, 71, 0.6) 100%
+  );
+}
+.contact-btn {
+  background-color: black;
+  color: white;
+}
+.input-form {
+  background-color: black;
+  color: white;
+}
+
+.box {
+  background-image: url("../Asstes/card-one.jpg");
+  background-repeat: no-repeat;
+  height: 25rem;
+  width: 20rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.box:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(248, 0, 77, 1),
+    rgba(8, 113, 145, 0.6) 100%
+  );
+}
+.about-container {
+  margin-top: 7rem;
+}
+
+@media screen and (max-width: 998px) {
+  .about-container {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .about-img-container {
+    margin-left: 2rem;
+  }
+  .about-text {
+    margin-left: 2rem;
+  }
+  #Project {
+    font-size: 2.5rem;
+  }
+}
+/* @media screen and (max-width: 335px) {
+} */
+.home-page {
+  display: block;
+  height: 60rem;
+  width: 100%;
+
+  background-image: url("../asstes/bg-body-img.jpg");
+
+  background-size: 100% 100%;
+}
+.home-content {
+  height: 50rem;
+  width: 100%;
+}
+.about-img-container-mobile {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+.latest-Project {
+  font-size: 4.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.contactme {
+  display: block;
+  height: 30rem;
+  width: 100%;
+}
+.contact-text {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.contactme-mobile-view {
+  display: none;
+}
